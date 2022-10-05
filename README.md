@@ -3,6 +3,8 @@
 ## POST
 `/shirts`  <br/>
 - Criar nova camiseta
+- Types: SHIRT, T_SHIRT, TANK_TOP
+- Status: AVAILABLE, UNAVAILABLE
 
 **Body**
 ```
@@ -34,6 +36,8 @@
 ## PUT
 `/shirts/{id}`  <br/>
 - Alterar camiseta por id
+- Types: SHIRT, T_SHIRT, TANK_TOP
+- Status: AVAILABLE, UNAVAILABLE
 
 **Body**
 ```
